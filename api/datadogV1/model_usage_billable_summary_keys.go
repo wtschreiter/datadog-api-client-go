@@ -155,6 +155,8 @@ type UsageBillableSummaryKeys struct {
 	// Response with properties for each aggregated usage type.
 	SensitiveDataScannerSum *UsageBillableSummaryBody `json:"sensitive_data_scanner_sum,omitempty"`
 	// Response with properties for each aggregated usage type.
+	ServerlessInfraAverage *UsageBillableSummaryBody `json:"serverless_infra_average"`
+	// Response with properties for each aggregated usage type.
 	ServerlessInvocationSum *UsageBillableSummaryBody `json:"serverless_invocation_sum,omitempty"`
 	// Response with properties for each aggregated usage type.
 	SiemSum *UsageBillableSummaryBody `json:"siem_sum,omitempty"`
